@@ -11,11 +11,11 @@ typedef struct
     float preco;
 } Produto;
 
-Produto *bubluSort(Produto p[5])
+Produto *bubluSort(Produto p[tam])
 {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < tam; i++)
     {
-        for (int j = i + 1; j <= 4; j++)
+        for (int j = i + 1; j < tam; j++)
         {
             if (p[j].codigo < p[i].codigo)
             {
@@ -35,10 +35,10 @@ void listarProduto(Produto p)
     printf("Preço: %f\n", p.preco);
 }
 
-void cadastrar(Produto f[5])
+void cadastrar(Produto f[tam])
 {
     printf("Cadastre os Produtos -----------------\n");
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < tam; i++)
     {
         char descricao[255];
         float preco;
@@ -57,7 +57,7 @@ void cadastrar(Produto f[5])
 
 
 void buscaBinaria(Produto p[], int chave){
-    int ini = 0, fim = 5-1, cont = 0;
+    int ini = 0, fim = tam-1, cont = 0;
     int meio;
     do{
         meio = (ini+fim)/2;
@@ -82,12 +82,12 @@ void buscaBinaria(Produto p[], int chave){
 
 int main(int argc, char const *argv[])
 {
-    Produto p[5];
+    Produto p[tam];
     int codigoProduto, cont = 0;
     cadastrar(p);
     printf("\n\n-----------------------------------\n\n");
     bubluSort(p);
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < tam; i++)
     {
         listarProduto(p[i]);
     }
@@ -95,7 +95,7 @@ int main(int argc, char const *argv[])
     printf("Qual codigo do produto deseja buscar: ");
     scanf("%d", &codigoProduto);
     // Busca sequencial
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < tam; i++)
     {
         if (codigoProduto == p[i].codigo)
         {
