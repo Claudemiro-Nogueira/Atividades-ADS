@@ -4,7 +4,7 @@
 
 int main(int argc, char const *argv[])
 {
-    int tam = 3;
+    int tam = 10;
     int numeros[tam];
 
     // Preencher o vetor
