@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int tam = 2;
+int tam = 8;
 
 typedef struct
 {
