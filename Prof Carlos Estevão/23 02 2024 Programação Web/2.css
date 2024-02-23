@@ -1,0 +1,31 @@
+body{
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20231002/pngtree-vintage-old-paper-texture-downloadable-background-photo-image_13582822.png) no-repeat top / cover;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    color: rgb(78, 47, 28);
+    margin: 150px 0 0 0;
+}
+
+
+
+p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 50%;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    color: rgb(78, 47, 28);
+}
+
+.fonte-alta{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cortado{
+    text-decoration: line-through;
+}
