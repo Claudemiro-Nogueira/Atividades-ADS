@@ -1,0 +1,29 @@
+
+li{
+    text-decoration: none;
+    list-style: georgian;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+
+#a1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+#a2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+#a3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+#a4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: burlywood;
+}

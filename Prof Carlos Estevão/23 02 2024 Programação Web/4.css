@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.foto-perfil {
+    flex: 1 1 200px;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.informacoes {
+    flex: 2 1 auto;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociais a {
+    color: #333;
+    font-size: 20px;
+}
+
+.redes-sociais a:hover {
+    color: #000;
+}
+
+i {
+    transition: 0.2s;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
