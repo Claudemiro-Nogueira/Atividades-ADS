@@ -1,0 +1,10 @@
+# Comparação dos algoritmos em tempo
+![](imagem.jpg)
+
+Segue o link com a tabela e informaçoes sobre o computador para visualização
+
+https://docs.google.com/spreadsheets/d/1VqIOLzjkVmVJD3NSWWEdr-dUpIq5Ljsa/edit?usp=sharing&ouid=114770093667673736563&rtpof=true&sd=true
+
+
+## Conclusões 
+O Quick Sort foi o que teve o melhor desempenho em relação aos outros. Alguns demoraram em torno de 30 min para executarem. Claro que as configurações do meu pc influenciaram tambem. O Bubble Sort foi o que teve o pior desempenho. Os aleatorios nao possuem um tempo exato pois como sabemos a posição dos numeros influenciam muito, o que pode demorar mais tempo ou menos tempo além de que o hardware do computador é multicompartilhado com outros programas.
